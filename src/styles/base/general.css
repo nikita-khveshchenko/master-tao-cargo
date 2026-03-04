@@ -1,0 +1,17 @@
+body {
+  color: var(--color-white);
+  background-color: var(--color-dark);
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.26;
+}
+
+a,
+button,
+input,
+label,
+textarea,
+svg * {
+  cursor: pointer;
+}
