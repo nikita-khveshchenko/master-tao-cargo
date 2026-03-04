@@ -1,0 +1,18 @@
+.button-accent {
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 27px;
+  height: var(--button-height-small);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15;
+  line-height: 1.46;
+  background-color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  border-radius: var(--button-border-radius);
+
+  &:hover {
+    color: var(--color-accent);
+    background-color: var(--color-white);
+  }
+}

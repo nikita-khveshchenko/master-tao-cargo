@@ -13,11 +13,30 @@ input,
 label,
 textarea,
 svg * {
+  transition-duration: var(--transition-duration);
   cursor: pointer;
 }
 
+a,
+button {
+  &:active {
+    scale: 1.07;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .container {
-  max-width: var(--container-width);
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
   margin-inline: auto;
   padding-inline: var(--container-padding-x);
+}
+
+:focus-visible {
+  outline: 2px dashed var(--color-white);
+  outline-offset: 4px;
+  transition-duration: 0s !important;
 }
