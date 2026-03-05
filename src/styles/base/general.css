@@ -35,6 +35,11 @@ a {
   padding-inline: var(--container-padding-x);
 }
 
+.container--big {
+  max-width: calc(var(--container-width-big) + var(--container-padding-big-x) * 2);
+  padding-inline: var(--container-padding-big-x);
+}
+
 :focus-visible {
   outline: 2px dashed var(--color-white);
   outline-offset: 4px;

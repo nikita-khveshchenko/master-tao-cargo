@@ -1,0 +1,43 @@
+.swiper {
+  position: relative;
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 50%;
+  bottom: 40px;
+  translate: -50%;
+  display: flex;
+  column-gap: 26px;
+  z-index: 10;
+}
+
+.swiper-pagination-bullet {
+  display: inline-flex;
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--color-white);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--color-white);
+  cursor: auto;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  right: 4%;
+  z-index: 10;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 50%;
+  translate: 0 -50%;
+  left: 4%;
+  z-index: 10;
+}

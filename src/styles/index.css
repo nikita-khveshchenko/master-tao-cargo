@@ -8,6 +8,9 @@
 @import url("./components/menu.css");
 @import url("./components/button-accent.css");
 @import url("./components/burger-menu.css");
+@import url("./components/icon.css");
+@import url("./components/slider.css");
 
 /* Layout */
 @import url("./layout/header.css");
+@import url("./layout/hero.css");

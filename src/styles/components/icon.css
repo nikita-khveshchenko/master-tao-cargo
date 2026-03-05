@@ -1,0 +1,18 @@
+.icon {
+  position: relative;
+  width: 27px;
+  height: 27px;
+}
+
+.icon--circle-arrow {
+  &::before {
+      position: absolute;
+      content: "";
+      width: 27px;
+      height: 27px;
+      background-image: url("/icons/arrow-circle.svg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+}

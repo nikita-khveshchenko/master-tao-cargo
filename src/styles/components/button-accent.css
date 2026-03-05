@@ -5,7 +5,7 @@
   height: var(--button-height-small);
   font-family: var(--font-family);
   font-weight: 600;
-  font-size: 15;
+  font-size: 15px;
   line-height: 1.46;
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
@@ -15,4 +15,12 @@
     color: var(--color-accent);
     background-color: var(--color-white);
   }
+}
+
+.button-accent__icon {
+  column-gap: 50px;
+  height: var(--button-height);
+  padding: 0 33px;
+  font-size: 16px;
+  color: var(--color-white);
 }
