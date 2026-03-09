@@ -1,4 +1,5 @@
 .header {
+  position: relative;
   padding-block: 25px;
 }
 
@@ -14,4 +15,35 @@
 
 .header__burger-menu {
   display: none;
+}
+
+@media (width <= 1024px) {
+  .header__overlay {
+    position: fixed;
+    top: 99px;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    translate: 0 -130%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: var(--color-gray-01);
+    z-index: 100;
+    opacity: 0;
+    transition-duration: var(--transition-duration);
+  }
+
+  .header__overlay.is-active {
+    opacity: 1;
+    translate: 0 0;
+  }
+
+  .header__button-link {
+    margin: auto;
+  }
+
+  .header__burger-menu {
+    display: inline-flex;
+  }
 }

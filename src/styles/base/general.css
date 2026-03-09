@@ -5,6 +5,7 @@ body {
   font-weight: 400;
   font-size: 17px;
   line-height: 1.26;
+  overflow: hidden;
 }
 
 a,
@@ -44,4 +45,10 @@ a {
   outline: 2px dashed var(--color-white);
   outline-offset: 4px;
   transition-duration: 0s !important;
+}
+
+@media (width <= 1024px) {
+  .container--big {
+    padding-inline: 0;
+  }
 }

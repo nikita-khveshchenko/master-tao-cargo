@@ -18,12 +18,35 @@
   height: 8px;
   border: 2px solid var(--color-white);
   border-radius: 50%;
+  transition-duration: var(--transition-duration);
   cursor: pointer;
+
+  &:hover {
+    background-color: var(--color-accent);
+  }
 }
 
 .swiper-pagination-bullet-active {
   background-color: var(--color-white);
   cursor: auto;
+}
+
+.swiper-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  transition-duration: var(--transition-duration);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+
+  &:active {
+    scale: 1.07;
+  }
 }
 
 .swiper-button-next {
@@ -40,4 +63,11 @@
   translate: 0 -50%;
   left: 4%;
   z-index: 10;
+}
+
+@media (width <= 1024px) {
+  .swiper-button {
+    display: none;
+    visibility: hidden;
+  }
 }
