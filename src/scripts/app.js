@@ -2,6 +2,9 @@ import "swiper/css";
 import "../styles/index.css";
 import Swiper from "swiper";
 import { Navigation, Pagination } from "swiper/modules";
+import BurgerMenu from "./modules/BurgerMenu";
+
+new BurgerMenu();
 
 const heroSlider = new Swiper(".slider", {
   modules: [Pagination, Navigation],
