@@ -1,0 +1,18 @@
+.advantages__inner {
+  padding-top: 90px;
+  padding-bottom: 110px;
+  background-color: var(--color-gray-01);
+  border-radius: var(--border-radius);
+}
+
+.advantages__title {
+  text-align: center;
+  margin-bottom: 72px;
+}
+
+.advantages__list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 30px;
+  row-gap: 48px;
+}

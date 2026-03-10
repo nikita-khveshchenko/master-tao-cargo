@@ -41,6 +41,21 @@ a {
   padding-inline: var(--container-padding-big-x);
 }
 
+.decoration-title {
+  position: relative;
+}
+
+.decoration-title::before {
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 50%;
+  translate: -50% 0;
+  width: 85px;
+  height: 2px;
+  background-color: var(--color-accent);
+}
+
 :focus-visible {
   outline: 2px dashed var(--color-white);
   outline-offset: 4px;
