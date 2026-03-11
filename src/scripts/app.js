@@ -22,3 +22,10 @@ const heroSlider = new Swiper(".slider", {
     nextEl: ".swiper-button-next"
   }
 });
+
+const deliverySwiper = new Swiper(".delivery__swiper", {
+  modules: [Pagination, Navigation],
+  slidesPerView: 3,
+  spaceBetween: 30,
+  direction: "horizontal",
+})
