@@ -1,0 +1,58 @@
+.delivery-card__image {
+  border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.delivery-card__body {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 27px;
+  background-color: var(--color-gray-01);
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.delivery-card__title {
+  text-align: center;
+}
+
+.delivery-card__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.delivery-card__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+  color: var(--color-green);
+}
+
+.delivery-card__item span {
+  color: var(--color-white);
+}
+
+.delivery-card__price {
+  text-align: center;
+  font-size: 22px;
+  color: var(--color-gray-04);
+}
+
+.delivery-card__price span {
+  font-size: 2em;
+  font-weight: 700;
+  color: var(--color-white);
+}
+
+.delivery-card__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 14px;
+}
+
+.delivery-card__button {
+  color: var(--color-white);
+}

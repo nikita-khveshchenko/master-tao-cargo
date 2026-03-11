@@ -56,6 +56,10 @@ a {
   background-color: var(--color-accent);
 }
 
+.decoration-title--green::before {
+  background-color: var(--color-green);
+}
+
 :focus-visible {
   outline: 2px dashed var(--color-white);
   outline-offset: 4px;

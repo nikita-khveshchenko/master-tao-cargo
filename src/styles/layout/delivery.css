@@ -1,0 +1,46 @@
+.delivery {
+  padding-top: 100px;
+}
+
+.delivery__inner {
+  position: relative;
+}
+
+.deliver__title {
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.delivery__swiper {
+  overflow-x: hidden;
+}
+
+.delivery__swiper-button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  transition-duration: var(--transition-duration);
+  cursor: pointer;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+
+  &:active {
+    scale: 1.07;
+  }
+  top: 50%;
+  translate: -50% 0;
+  z-index: 10;
+}
+
+.delivery__swiper-button-prev {
+  left: -4%;
+}
+
+.delivery__swiper-button-next {
+  right: -8%;
+}

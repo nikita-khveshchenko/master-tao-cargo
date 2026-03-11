@@ -10,6 +10,7 @@
   background-color: var(--color-accent);
   border: 1px solid var(--color-accent);
   border-radius: var(--button-border-radius);
+  white-space: nowrap;
 
   &:hover {
     color: var(--color-accent);
@@ -23,4 +24,23 @@
   padding: 0 33px;
   font-size: 16px;
   color: var(--color-white);
+}
+
+.button__bordered {
+    display: inline-flex;
+  align-items: center;
+  padding-inline: 27px;
+  height: var(--button-height-small);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.46;
+  background: none;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--button-border-radius);
+
+  &:hover {
+    color: var(--color-accent);
+    background-color: var(--color-white);
+  }
 }

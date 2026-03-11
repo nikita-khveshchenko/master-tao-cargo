@@ -11,8 +11,10 @@
 @import url("./components/icon.css");
 @import url("./components/slider.css");
 @import url("./components/advantage-card.css");
+@import url("./components/delivery-card.css");
 
 /* Layout */
 @import url("./layout/header.css");
 @import url("./layout/hero.css");
 @import url("./layout/advantages.css");
+@import url("./layout/delivery.css");
