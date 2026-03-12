@@ -24,12 +24,28 @@ const heroSlider = new Swiper(".slider", {
 });
 
 const deliverySwiper = new Swiper(".delivery__swiper", {
-  modules: [Navigation],
-  slidesPerView: 3,
-  spaceBetween: 30,
+  modules: [Navigation, Pagination],
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    1340: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    }
+  },
   direction: "horizontal",
     navigation: {
     prevEl: ".delivery__swiper-button-prev",
     nextEl: ".delivery__swiper-button-next"
+  },
+  pagination: {
+    el: ".delivery__swiper-pagination",
+    clickable: true
   }
 })

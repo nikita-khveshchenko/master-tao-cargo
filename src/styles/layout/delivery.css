@@ -1,5 +1,6 @@
 .delivery {
   padding-top: 100px;
+  padding-bottom: 60px;
 }
 
 .delivery__inner {
@@ -43,4 +44,25 @@
 
 .delivery__swiper-button-next {
   right: -8%;
+}
+
+.delivery__swiper-pagination {
+  display: none;
+  visibility: hidden;
+}
+
+@media (width <= 1280px) {
+  .delivery__swiper-button {
+    display: none;
+    visibility: hidden;
+  }
+
+  .delivery__swiper-pagination {
+    display: flex;
+    visibility: visible;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    column-gap: 26px;
+  }
 }

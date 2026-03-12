@@ -34,6 +34,10 @@
   color: var(--color-white);
 }
 
+.delivery-card__image {
+  width: 100%;
+}
+
 .delivery-card__price {
   text-align: center;
   font-size: 22px;
